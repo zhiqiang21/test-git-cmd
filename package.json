@@ -1,0 +1,26 @@
+{
+  "name": "test-git-cmd",
+  "version": "1.0.0",
+  "description": "测试git 命令",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhiqiang21/test-git-cmd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhiqiang21/test-git-cmd/issues"
+  },
+  "homepage": "https://github.com/zhiqiang21/test-git-cmd#readme",
+  "pathalias": {
+    "@utils": "${cwd}/utils"
+  }
+}
